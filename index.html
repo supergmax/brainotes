@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+
+<html lang="fr">
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>BRAINOTES UI</title>
+		<link rel="stylesheet" type="text/css" href="./files/normalize.css">
+		<link rel="stylesheet" type="text/css" href="./files/vicons-font.css">
+		<link rel="stylesheet" type="text/css" href="./files/base.css">
+		<link rel="stylesheet" type="text/css" href="./files/buttons.css">
+		<script>
+			if ('serviceWorker' in navigator) {
+				window.addEventListener('load', function () {
+					navigator.serviceWorker.register('/sw.js').then(
+						function (registration) {
+							//registration was successful
+							console.log('ServiceWorker registration successful with scope: ',registration.scope)
+						},
+						function (err) {
+							//registration failed :(
+							console.log('ServiceWorker registration failed: ', err)
+						}
+					)
+				})        
+			}
+		</script>
+		<link rel="manifest" href="manifest.json">
+		<link rel="icon" type="image/png" sizes="512x512" href="./files/icon.png">
+		<meta name="theme-color" content="#021525">
+	</head>
+	<body>
+		<div class="container">
+			<header class="codrops-header">
+				<h1>BRAINOTES<span><font size="6" color="#990033">A PROPOS</font></span></h1>
+			</header>
+
+			<section class="content">
+				<div class="boxv2 bg-3">
+					<a href="question-maths.html"><button class="button button--aylen button--round-l button--text-thick"><font size="4"></font>MATHS</font></button></a>
+					<a href="question-physique.html"><button class="button button--aylen button--round-l button--text-thick"><font size="4"></font>PHYSIQUE</font></button></a>
+					<a href="question-chimie.html"><button class="button button--aylen button--round-l button--text-thick">CHIMIE</button></a>
+				</div>
+
+				<div class="boxv2 bg-3">
+					<a href="question-histoire.html"><button class="button button--aylen button--round-l button--text-thick">HISTOIRE</button></a>
+					<a href="question-geographie.html"><button class="button button--aylen button--round-l button--text-thick">GEOGRAPHIE</button></a>
+					<a href="question-si.html"><button class="button button--aylen button--round-l button--text-thick">SI</button></a>
+				</div>
+
+				<div class="box bg-1">
+					<a href="addquestions.html"><button class="button button--antiman button--round-l button--text-medium">AJOUT DE QUESTION</button></a>
+					<a href="liste-maths.html"><button class="button button--antiman button--round-l button--text-medium">LISTES</button></a>
+					<a href="options.html"><button class="button button--antiman button--round-l button--text-medium">OPTIONS</button></a>
+				</div>
+			</section>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,284 @@
+{
+	"maths": [
+		{
+			"question": "Quelle est la valeur de ln(1) ?",
+			"reponse": "C'est 0",
+			"poids": 5
+		},
+		{
+			"question": "Quelle est la valeur de exp(0) ?",
+			"reponse": "C'est 1",
+			"poids": 5
+		},
+		{
+			"question": "Quelle est la dérivée de u/v ?",
+			"reponse": "C'est (u'v-uv')/v²",
+			"poids": 5
+		},
+		{
+			"question": "Quelle est la dérivée de log(u) ?",
+			"reponse": "C'est u'/u",
+			"poids": 5
+		},
+		{
+			"question": "Une fonction est convergente si...",
+			"reponse": "...elle est strictement croissante et majoré",
+			"poids": 5
+		}
+	],
+
+	"physique": [
+		{
+			"question": "Quelle quantité de pression de Pascal il y a-t-il dans un bar ?",
+			"reponse": "Il y en a 10⁵",
+			"poids": 5
+		}
+	],
+
+	"chimie": [
+		{
+			"question": "Qu'est-ce qu'un réactif chimioselectif ?",
+			"reponse": "C'est un réactif qui transforme un ou plusieurs groupes caractéristiques d'une espèce polyfonctionnelle sans modifier les autres",
+			"poids": 5
+		},
+		{
+			"question": "Que se passe-t-il lors d'une réaction séléctive ?",
+			"reponse": "Une espèce polyfonctionnelle réagie avec un réactif chimioséléctif",
+			"poids": 5
+		},
+		{
+			"question": "Que faut-il faire lorsque le réactif d'une transformation d'une espèce polyfonctionnelle n'est pas chimioséléctif ?",
+			"reponse": "Il faut protégér un des groupes caractéristiques",
+			"poids": 5
+		},
+		{
+			"question": "Quelles sont les 3 étapes d'une stratégie de protection ?",
+			"reponse": "Protection, transformation (du groupe à modifier) et déprotection",
+			"poids": 5
+		}
+	],
+
+	"histoire": [
+		{
+			"question": "Qui est l’ennemi du Partie Communiste Chinois pendant la guerre civile ? Et par qui est-il dirigé ?",
+			"reponse": "Le Guomindang, par Chiang Kai-Shek",
+			"poids": 5
+		},
+		{
+			"question": "Qui fonde la RPC et à quelle date?",
+			"reponse": "Mao Zedong en 1949",
+			"poids": 5
+		},
+		{
+			"question": "A quel pays correspond la République de Chine (et non la RPC) depuis 1949 ?",
+			"reponse": "Taïwan",
+			"poids": 5
+		},
+		{
+			"question": "Quel accord est signé en février 1950 ? Que prévoit-il ?",
+			"reponse": "Le traité sino-soviétique qui prévoit une aide technique et une protection militaire",
+			"poids": 5
+		},
+		{
+			"question": "Comment appelle-t-on aussi la «voie chinoise vers le communisme» ? Sur quelle partie de la population se base-t-il ?",
+			"reponse": "Le maoïsme, appuyé sur les paysans",
+			"poids": 5
+		},
+		{
+			"question": "Où sont envoyés les opposants du PCC ?",
+			"reponse": "Dans les camps de travaux forcés (Laogaï)",
+			"poids": 5
+		},
+		{
+			"question": "Entre 1946 et 1974, la RPC va participer (directement ou pas) à 3 guerres : lesquelles ?",
+			"reponse": "Guerre d’Indochine (1946-54) puis du Vietnam (1964-74) et guerre de Corée (1950-53)",
+			"poids": 5
+		},
+		{
+			"question": "Quelles politiques soviétiques le PCC désapprouve-t-il après 1956 ? Quel dirigeant soviétique en est l’auteur ?",
+			"reponse": "La déstalinisationet la fin du culte de la personnalité, et la coexistence pacifique, politiques impulsées par Khrouchtchev",
+			"poids": 5
+		},
+		{
+			"question": "De quelle naissance la conférence de Bandung en 1955 est-elle le symbole ? Que cherche à y faire la Chine (et dans les années suivantes) ?",
+			"reponse": "Le tiers monde (pays récemment décolonisés, souvent pauvres) et le non alignement. La Chine cherche à devenir le modèle et le leader du tiers monde",
+			"poids": 5
+		},
+		{
+			"question": "Quelle est l’année de la rupture entre la RPC et l’URSS ?",
+			"reponse": "1960",
+			"poids": 5
+		},
+		{
+			"question": "Quelles sont les deux réformes majeures entreprises par Mao Zedong ?",
+			"reponse": "Grand bond en avant 1958-61, révolution culturelle 1966-69",
+			"poids": 5
+		},
+		{
+			"question": "Quels sont les résultats des deux réformes majeures entreprises par Mao ?",
+			"reponse": "Des échecs : Grand Bond => désorganisation, famine. Rév. culturelle => purge des élites => blocage progrès pays",
+			"poids": 5
+		},
+		{
+			"question": "A quelle date la Chine obtient-elle l’arme nucléaire ?",
+			"reponse": "1964",
+			"poids": 5
+		},
+		{
+			"question": "En quelle année la RPC est-elle reconnue par la France ?",
+			"reponse": "1964",
+			"poids": 5
+		},
+		{
+			"question": "En quelle année la RPC prend-elle la place de Taïwan à l’ONU ?",
+			"reponse": "1971",
+			"poids": 5
+		},
+		{
+			"question": "Quel président américain se rend en Chine, et en quelle année ?",
+			"reponse": "Richard Nixon en 1972",
+			"poids": 5
+		},
+		{
+			"question": "En quelle année meurt Mao Zedong ?",
+			"reponse": "1976",
+			"poids": 5
+		},
+		{
+			"question": "Qui est l’artisan de l’ouverture économique de la Chine ?",
+			"reponse": "Den Xiaoping",
+			"poids": 5
+		},
+		{
+			"question": "Pendant quelles années Den Xiaoping est-il au pouvoir ?",
+			"reponse": "De 1978 à 1997",
+			"poids": 5
+		},
+		{
+			"question": "Quand a été lancé le programme des «Quatre modernisations» en Chine ?",
+			"reponse": "1978",
+			"poids": 5
+		},
+		{
+			"question": "Quels sont les 4 domaines concernés par les «Quatre modernisations» en Chine ?",
+			"reponse": "Agriculture, sciences, technologie, armement",
+			"poids": 5
+		},
+		{
+			"question": "A quelle date ont été créées les premières ZES en Chine ?",
+			"reponse": "1980",
+			"poids": 5
+		},
+		{
+			"question": "Du modèle de quels pays la RPC s’inspire-t-elle avec la création des ZES en 1980 ?",
+			"reponse": "Des NPIA ou 4 Dragons",
+			"poids": 5
+		},
+		{
+			"question": "Qu'est-ce qu'une ZES ?",
+			"reponse": "Zone Economique Spéciale : c'est une zone franche (sans impôts) permettant d'attirer les entreprises et capitaux étrangers (IDE)",
+			"poids": 5
+		},
+		{
+			"question": "Comment la RPC appelle-t-elle son système économique après 1980 ?",
+			"reponse": "Socialisme de marché",
+			"poids": 5
+		},
+		{
+			"question": "Comment appelle-t-on les deux grands mouvements de révolte populaire ayant eu lieu en Chine depuis la mort de Mao ?",
+			"reponse": "1er printemps de Pékin en 1979 et 2ème printemps de Pékin en 1989",
+			"poids": 5
+		},
+		{
+			"question": "De quoi se plaignent surtout les Chinois vis-à-vis de leur gouvernement ?",
+			"reponse": "Des scandales sanitaires et environnementaux",
+			"poids": 5
+		},
+		{
+			"question": "En quelle année la Chine a-t-elle récupérée Hong Kong ?",
+			"reponse": "1997",
+			"poids": 5
+		},
+		{
+			"question": "En quelle année la Chine a-t-elle récupérée Macao ?",
+			"reponse": "1999",
+			"poids": 5
+		},
+		{
+			"question": "En quelle année la Chine a-t-elle récupérée Taïwan ?",
+			"reponse": "Elle ne l'a pas récupérée, mais la revendique toujours",
+			"poids": 5
+		},
+		{
+			"question": "En quelle année la Chine est-elle admise au FMI et à la Banque mondiale ? Et à l’OMC ?",
+			"reponse": "En 1980 pour le FMI et la Banque mondiale et en 2001 pour l'OMC",
+			"poids": 5
+		},
+		{
+			"question": "De quelle association de pays asiatiques la Chine est-elle un des fondateurs en 2001 ?",
+			"reponse": "Le groupe de Shangaï (ex-URSS-Chine)", 
+			"poids": 5
+		},
+		{
+			"question": "Qu’est-ce que l’ASEAN+3?",
+			"reponse": "Association des Nations d'Asie du Sud-Est + 3 pays ayant le statut d'observateurs (donc non membres) dont la Chine", 
+			"poids": 5
+		},
+		{
+			"question": "En quelle année le PIB de la Chine devient-il le 2èmemondial? Qui dépasse-t-elle alors ?",
+			"reponse": "2010, elle dépassera le Japon",
+			"poids": 5
+		},
+		{
+			"question": "Qui dirige la Chine depuis 2013 ?",
+			"reponse": "Xi Jinping",
+			"poids": 5
+		},
+		{
+			"question": "Comment s’appelle le programme géopolitique de Xi Jinping ? Que cherche-t-il à moderniser pour cela ?",
+			"reponse": "Le «Rêve chinois» : modernisation de l'armée et programme spatial",
+			"poids": 5
+		},
+		{
+			"question": "En cherchant à contrôler la mer de Chine, que cherche à faire la Chine ?",
+			"reponse": "Elle veut sécuriser ses approvisionnements",
+			"poids": 5
+		},
+		{
+			"question": "Quelles grandes manifestations organisées en Chine prouvent son importance croissante dans le monde ?",
+			"reponse": "JO Pékin 2008, Exposition universelle Shangaï 2010",
+			"poids": 5
+		},
+		{
+			"question": "Comment appelle-t-on la communauté des Chinois à l’étranger ? Combien sont-ils ? Quel intérêt cela a-t-il pour la Chine ?",
+			"reponse": "La diaspora chinoise. Elle est constituée de 35M de Chinois, qui diffusent la culture et servent de contacts commerciaux",
+			"poids": 5
+		},
+		{
+			"question": "Comment s’appelle les instituts culturels chinois à l’étranger et quel est leur rôle ?",
+			"reponse": "Les instituts Confucius. Il servent à diffuser la culture chinoise. C'est un instrument du soft power chinois",
+			"poids": 5
+		},
+		{
+			"question": "Comment appelle-t-on les migrants chinois intérieurs dans les villes ? Combien sont-ils ? De quel problème de la société chinoise sont-ils le reflet ?",
+			"reponse": "Les Mingongs, ils sont 230M et sont le reflet des inégalités intérieures",
+			"poids": 5
+		}
+	],
+
+	"geographie":[
+		{
+			"question": "Qu'est-ce qu'une ZES ?",
+			"reponse": "Zone Economique Spéciale : c'est une zone franche (sans impôts) permettant d'attirer les entreprises et capitaux étrangers (IDE)",
+			"poids": 5
+		}
+	],
+	
+	"si":[
+		
+	],
+
+	"perso":[
+		
+	]
+}

@@ -1,0 +1,352 @@
+[
+		{
+			"question": "Comment  montrer qu’une suite (Un) est croissante ?",
+			"reponse": "",
+			"poids": 5
+		},
+		{
+			"question": "Comment montrer que la fonction f est continue en 2 ?",
+			"reponse": "",
+			"poids": 5
+		},
+		{
+			"question": "Etudier la dérivabilité de la fonction g en 1. Que fait-on ?",
+			"reponse": "",
+			"poids": 5
+		},
+		{
+			"question": "Existe –t-il des tangentes horizontales à la Courbe Cf ? comment fait-on ?",
+			"reponse": "",
+			"poids": 5
+		},
+		{
+			"question": "Existe-t-il des tangentes à Cf parallèles à la droite d d’équation y= -5x+2 ? comment fait-on ?",
+			"reponse": "",
+			"poids": 5
+		},
+		{
+			"question": "Donner la Lim en -∞ de xe^x ",
+			"reponse": "",
+			"poids": 5
+		},
+		{
+			"question": "Donner la Lim en +∞ de e^x/x",
+			"reponse": "",
+			"poids": 5
+		},
+		{
+			"question": "Donner la Lim en +∞ de ln(x)/x",
+			"reponse": "",
+			"poids": 5
+		},
+		{
+			"question": "Donner la Lim en 0 (x>0) de xLn(x)",
+			"reponse": "",
+			"poids": 5
+		},
+		{
+			"question": "Montrer que la droite d’équation y=4 est asymptote  horizontale à Cf. comment fait-on ?",
+			"reponse": "",
+			"poids": 5
+		},
+		{
+			"question": "Montrer que la droite d’équation x=-1 est asymptote verticale à Cg. Comment fait-on ?",
+			"reponse": "",
+			"poids": 5
+		},
+		{
+			"question": "Soit Un= n-√n. Quelle est sa limite ?",
+			"reponse": "",
+			"poids": 5
+		},
+		{
+			"question": "/!La question à bugué, la récuperer sur Windows/!",
+			"reponse": "",
+			"poids": 5
+		},
+		{
+			"question": "Donner la Lim en +∞ de Un = 4+Ln(1/n)",
+			"reponse": "",
+			"poids": 5
+		},
+		{
+			"question": "Donner la dérivée de f telle que f(x)=e^(ex)",
+			"reponse": "",
+			"poids": 5
+		},
+		{
+			"question": "Donner la dérivée de f telle que f(x)=e^(e^x) ",
+			"reponse": "",
+			"poids": 5
+		},
+		{
+			"question": "Donner une primitive de (3x)/(x²+3) ",
+			"reponse": "",
+			"poids": 5
+		},
+		{
+			"question": "Donner une primitive de -e^(-x)",
+			"reponse": "",
+			"poids": 5
+		},
+		{
+			"question": "Donner une primitive de -2e^(-x) ",
+			"reponse": "",
+			"poids": 5
+		},
+		{
+			"question": "Donner la dérivée de h(x)= e^(2x+3)–ln(x-3)",
+			"reponse": "",
+			"poids": 5
+		},
+		{
+			"question": "Soit f la fonction telle que f(x) = e^(2x), quelle est la valeur moyenne μ de f sur [0;4]",
+			"reponse": "",
+			"poids": 5
+		},
+		{
+			"question": "La fonction H(x)=(-x-2)e^(-x) est une primitive de h telle que h(x)=(x+1)e^(-x) ",
+			"reponse": "",
+			"poids": 5
+		},
+		{
+			"question": "Résoudre Ln ( 3x+1)= 1",
+			"reponse": "",
+			"poids": 5
+		},
+		{
+			"question": "Résoudre e^(2x+3)= 4",
+			"reponse": "",
+			"poids": 5
+		},
+		{
+			"question": "Résoudre dans C l’équation z²-2√3 z + 4 = 0",
+			"reponse": "",
+			"poids": 5
+		},
+		{
+			"question": "Donner la forme algébrique du Complexe z =4e^(-iπ/6)",
+			"reponse": "",
+			"poids": 5
+		},
+		{
+			"question": "Donner la forme trigonométrique de z tel que z=1-i√3 puis la forme exponentielle de z.",
+			"reponse": "",
+			"poids": 5
+		},
+		{
+			"question": "Quelles  relations mathématiques puis-je écrire si deux événements A et B sont indépendants  ( 3 égalités) ?",
+			"reponse": "",
+			"poids": 5
+		},
+		{
+			"question": "Donner la formule des probabilités conditionnelles .",
+			"reponse": "",
+			"poids": 5
+		},
+		{
+			"question": "Quelle est la formule des probabilités totales ?",
+			"reponse": "",
+			"poids": 5
+		},
+		{
+			"question": "Soit Vn la suite définie, pour tout n de N,  par Vn= 3- 1/n+1, quelles est son sens de variation ?",
+			"reponse": "",
+			"poids": 5
+		},
+		{
+			"question": "Est-elle majorée ou minorée ?  converge - t-elle ?",
+			"reponse": "",
+			"poids": 5
+		},
+		{
+			"question": "Calculer la dérivée de f(x) = cos(-4x+2)",
+			"reponse": "",
+			"poids": 5
+		},
+		{
+			"question": "Donner la dérivée de h(x) = -2sin(3x+1) ",
+			"reponse": "",
+			"poids": 5
+		},
+		{
+			"question": "Qu’est - ce qu’une fonction paire ? Comment montrer qu’une fonction est paire ? conséquences graphique ?",
+			"reponse": "",
+			"poids": 5
+		},
+		{
+			"question": "Qu’est-ce qu’une fonction impaire ? comment montrer qu’une fonction est impaire ? conséquences graphique ?",
+			"reponse": "",
+			"poids": 5
+		},
+		{
+			"question": "Qu’est-ce qu’une fonction périodique T ? comment montrer qu’une fonction est périodique π ? conséquence graphique ?",
+			"reponse": "",
+			"poids": 5
+		},
+		{
+			"question": "Résoudre  3e Ln (x) – e = 1",
+			"reponse": "",
+			"poids": 5
+		},
+		{
+			"question": "Résoudre dans C l’équation Z²= - 4",
+			"reponse": "",
+			"poids": 5
+		},
+		{
+			"question": "Soit f(x)= ln ( x² +3) . Donner le tableau de variation de f. Quel est le minimum de f(x) ? pour quelle valeur de x est-il atteint ? résoudre f(x)= -3",
+			"reponse": "",
+			"poids": 5
+		},
+		{
+			"question": "Donner l’équation de la tangente à  Cf au point d’abscisse 0  lorsque f(x) = eLn(x+1)",
+			"reponse": "",
+			"poids": 5
+		},
+		{
+			"question": "Donner le principe du raisonnement par récurrence. Quand  utilise –t-on un raisonnement par récurrence ?",
+			"reponse": "",
+			"poids": 5
+		},
+		{
+			"question": "Soit z = 1-i donner l’argument de z² et z³ ",
+			"reponse": "",
+			"poids": 5
+		},
+		{
+			"question": "Donner les formules de Moivre et D’Euler",
+			"reponse": "",
+			"poids": 5
+		},
+		{
+			"question": "Donner  la probabilité d’obtenir k succès dans une loi binomiale.",
+			"reponse": "",
+			"poids": 5
+		},
+		{
+			"question": "Donner l’espérance Mathématique , la variance et l’écart type dans une loi binomiale.Que vaut E(X) si le jeu est équitable ? si le jeu est favorable au joueur ? favorable à l’organisateur ?",
+			"reponse": "",
+			"poids": 5
+		},
+		{
+			"question": "Donner le module des complexes suivants : z= 1-2i  z= -3  z= 5  z=e^(i3π/4)   z= e^(iπ/46) z=4e^(iπ/3)",
+			"reponse": "",
+			"poids": 5
+		},
+		{
+			"question": "Calculer l’argument de iz sachant que z= 1-i, puis celui de –iz puis celui de z² et celui de iz² et enfin celui de -3z",
+			"reponse": "",
+			"poids": 5
+		},
+		{
+			"question": "Soit Un  définie par U0 = 3 et Un+1 =05Un-4, on pose Vn=Un+8, montrer que Vn est géométrique puis exprimer Un en fonction de n  et donner sa limite.",
+			"reponse": "",
+			"poids": 5
+		},
+		{
+			"question": "Comment montre- t-on qu’une suite est arithmétique ?",
+			"reponse": "",
+			"poids": 5
+		},
+		{
+			"question": "Soit Vn la suite géométrique de raison 1 /3 et de premier terme V0=4. Donner la somme des 10 premiers terme de la suite.",
+			"reponse": "",
+			"poids": 5
+		},
+		{
+			"question": "Soit Un la suite arithmétique de raison 2 et de premier terme U0 = 5 .donner la somme des 20 premiers termes de la suite.",
+			"reponse": "",
+			"poids": 5
+		},
+		{
+			"question": "Soit Vn définie sur N par Vn= (3+n)/(n²+3) .   donner la limite de la suite Vn",
+			"reponse": "",
+			"poids": 5
+		},
+		{
+			"question": "/! 54 et 55 manquant car intégrale /!",
+			"reponse": "",
+			"poids": 5
+		},
+		{
+			"question": "Calculer l’aire sous la courbe de la fonction Cosinus entre 0 et 2π",
+			"reponse": "",
+			"poids": 5
+		},
+		{
+			"question": "Donner l’argument de i,i²,i³ ",
+			"reponse": "",
+			"poids": 5
+		},
+		{
+			"question": "Résoudre Z³-1=0, mettre les solutions sous forme exponentielle",
+			"reponse": "",
+			"poids": 5
+		},
+		{
+			"question": "/! Même bug sur 59 que sur 13/!",
+			"reponse": "",
+			"poids": 5
+		},
+		{
+			"question": "Résoudre e^x < 5e^(-x)",
+			"reponse": "",
+			"poids": 5
+		},
+		{
+			"question": "Calculer Lim en +∞ de Lnx - x et Lim en 0 (x>0) de Lnx  +1/x et Lim en  -∞ de (e^x)(x+1)",
+			"reponse": "",
+			"poids": 5
+		},
+		{
+			"question": "Calcul de Lim qd x tend vers 0 de Sinx/x et  (cosx -1)/x",
+			"reponse": "",
+			"poids": 5
+		},
+		{
+			"question": "/! Intégral pour 63 /!",
+			"reponse": "",
+			"poids": 5
+		},
+		{
+			"question": "Soient trois points A (1 ;3/4), B( 2 ; -5/4) , C ( 3 ; 7/4)  du plan complexe et leurs affixes respectives  Za,Zb et Zc. Donner l’expression de Za Zbet Zc. Donner la nature du tringle ABC.",
+			"reponse": "",
+			"poids": 5
+		},
+		{
+			"question": "Les points A B C D ont pour affixes  a= 2-2i b=-1+7i  c=4+2i  d=-4-2i.  On donne le point F d’affixe f=-1+2i. Prouver que  les points A B C D appartiennent au cercle de centre F et de rayon 5.",
+			"reponse": "",
+			"poids": 5
+		},
+		{
+			"question": "Montrer que g(x)=4 admet une unique solution sur [-∞ ; 5]. Comment fait-on ?",
+			"reponse": "",
+			"poids": 5
+		},
+		{
+			"question": "Quel est le signe de (ln(x-1))√(x-1) ? ",
+			"reponse": "",
+			"poids": 5
+		},
+		{
+			"question": "Comment démontrer que pour tout x de R on a e^x >= x+1 ?",
+			"reponse": "",
+			"poids": 5
+		},
+		{
+			"question": "/! Bug 69 /!",
+			"reponse": "",
+			"poids": 5
+		},
+		{
+			"question": "Dans le plan complexe on considère la suite (Zn) définie par Z0=2 et Zn+1= ((1+i)/2)Zn. Soit Un la suite définie par Un=⎣Zn⎦. Montrer que Un est géométrique. Exprimer Un en fonction de n.",
+			"reponse": "",
+			"poids": 5
+		},
+		{
+			"question": "Donner son sens de variation et sa limite.",
+			"reponse": "",
+			"poids": 5
+		}
+]

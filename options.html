@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+
+<html lang="fr">
+	<head>
+		<meta charset="UTF-8">
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>BRAINOTES UI</title>
+		<link rel="stylesheet" type="text/css" href="./files/normalize.css">
+		<link rel="stylesheet" type="text/css" href="./files/vicons-font.css">
+		<link rel="stylesheet" type="text/css" href="./files/base.css">
+		<link rel="stylesheet" type="text/css" href="./files/buttons.css">
+		<script src="jquery.min.js"></script>
+	</head>
+	<body>
+		<div class="container">
+			<header class="codrops-header">
+				<h1><a href="index.html">BRAINOTES</a><span><font size="6" color="#990033"> OPTIONS </font></span></h1>
+			</header>
+
+			<section class="content">
+				<div class="boxv2 bg-3">
+					<form name="form">
+						<span>Chaque appuie sur « Je connais » enlève
+							<input type="text" size="1" name="JeConnais" minlength="1" class="button--round-1 button--text-medium">
+						à la probabilité de la question.</span>
+						<br>
+						<span>Chaque appuie sur « Je ne connais pas » ajoute
+							<input type="text" size="1" name="JeConnaisPas" minlength="1" class="button--round-1 button--text-medium">
+						à la probabilité de la question.</span>
+					</form>
+				</div>
+
+				<div class="box bg-2">
+					<button class="button button--aylen button--round-l button--text-thick" onclick='localStorage.clear();window.location.href="index.html"'>REINITIALISER</button>
+					<p class=" button--text-thick">Supprimer les cookies, c'est-à-dire les probabilités des questions,<br> les options et les questions personnalisées.</p>
+				</div>
+
+				<div class="box bg-1">
+				<button class="button button--antiman button--round-l button--text-medium" onclick="sauvegarderParametres();">SAUVERGARDER</button>
+				<!-- class="button button--antiman button--round-1 button--text-medium" -->
+				</div>
+
+				<script src="options.js"></script>
+			</section>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,16 @@
+{   
+    "name": "BRAINOTES",
+    "short_name": "BraiNotes",
+    "lang": "FR",
+    "start_url": "/?source=pwa",
+    "display": "standalone",
+    "theme_color": "#021525",
+    "background_color": "#021525",
+    "icons": [
+        {
+            "scr": "logo.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ]
+}

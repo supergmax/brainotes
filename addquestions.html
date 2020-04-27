@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+
+<html lang="fr">
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>BRAINOTES UI</title>
+		<link rel="stylesheet" type="text/css" href="./files/normalize.css">
+		<link rel="stylesheet" type="text/css" href="./files/vicons-font.css">
+		<link rel="stylesheet" type="text/css" href="./files/base.css">
+		<link rel="stylesheet" type="text/css" href="./files/buttons.css">
+		<script src="jquery.min.js"></script>
+	</head>
+	<body>
+	<div class="container">
+			<header class="codrops-header">
+				<h1><a href="index.html">BRAINOTES</a><span><font size="6" color="#990033">QUESTIONS</font></span></h1>
+			</header>
+
+			<section class="content">
+
+			<div class="boxv2 bg-3">
+			<form name="form">
+				<input type="text" name="question" placeholder="Question" class="button button--antiman button--round-l button--text-medium"><br>
+				<input type="text" name="reponse" placeholder="Réponse" class="button button--antiman button--round-l button--text-medium"><br>
+				<input type="text" name="poids" placeholder="Poids" class="button button--antiman button--round-l button--text-medium"><br>
+				<p class="buttonV2  button--round-l button--text-medium"><font size="4">Matière :</font></p>
+				<select name="matiere" class="buttonV2 button--antiman button--round-l button--text-medium">
+					<option>MATHS</option>
+					<option>PHYSIQUE</option>
+					<option>CHIMIE</option>
+					<option>HISTOIRE</option>
+					<option>GEOGRAPHIE</option>
+					<option>SI</option>
+					<option>PERSO</option>
+				</select>
+				</form>
+			</div>
+
+			<div class="box bg-1">
+			<font id="warning" size="4" color="red"></font>
+			</div>
+
+			<div class="box bg-1">
+			<a class="button button-- button--round-l button--text-medium"></a> <!-- question vide: espace-->
+			<button class="button button--aylen button--round-l button--text-thick" type="button" onclick="addquestion();">Submit</button>
+			<a class="button button-- button--round-l button--text-medium"></a> <!-- question vide: espace-->
+			</div>
+			
+
+			<div class="box bg-1">
+				<a href=""><button class="button button--antiman button--round-l button--text-medium">RETOUR</button></a>
+				<a class="button button-- button--round-l button--text-medium"></a> <!-- question vide: espace-->
+				<a href=""><button class="button button--antiman button--round-l button--text-medium">SAUVERGARDER</button></a>
+				
+			</div>
+
+			</section>
+
+		</div>
+
+
+		<script src="addquestions.js"></script>
+	</body>

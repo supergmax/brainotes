@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+
+<html lang="fr">
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>BRAINOTES UI</title>
+		<link rel="stylesheet" type="text/css" href="./files/normalize.css">
+		<link rel="stylesheet" type="text/css" href="./files/vicons-font.css">
+		<link rel="stylesheet" type="text/css" href="./files/base.css">
+		<link rel="stylesheet" type="text/css" href="./files/buttons.css">
+		<script src="jquery.min.js"></script>
+	</head>
+	<body>
+	<div class="container">
+			<header class="codrops-header">
+				<h1><a href="index.html">BRAINOTES</a><span><font size="6" color="#990033">QUESTIONS</font></span></h1>
+			</header>
+
+			<div class="box bg-1">
+				<button onclick="window.location.href='liste-maths.html'" class="button button--antiman button--round-l button--text-medium">MATHS</button>
+				<button onclick="window.location.href='liste-physique.html'" class="button button--antiman button--round-l button--text-medium">PHYSIQUE</button>
+				<button onclick="window.location.href='liste-chimie.html'" class="button button--antiman button--round-l button--text-medium">CHIMIE</button>
+				<button onclick="window.location.href='liste-histoire.html'" class="button button--antiman button--round-l button--text-medium">HISTOIRE</button>
+				<button onclick="window.location.href='liste-geographie.html'" class="button button--antiman button--round-l button--text-medium">GEOGRAPHIE</button>
+				<button onclick="window.location.href='liste-si.html'" class="button button--antiman button--round-l button--text-medium">SI</button>
+				<button onclick="window.location.href='liste-perso.html'" class="button button--antiman button--round-l button--text-medium">PERSO</button>
+			</div>
+
+			<section class="content"></section>
+				<script>matiere = "geographie"</script>
+				<script src="questionlist.js"></script>
+				<div class="box bg-1">
+					<button class="button button--antiman button--round-l button--text-medium" onclick="window.location.href='menu.html'">RETOUR</button>
+					<a class="button button-- button--round-l button--text-medium"></a> <!-- question vide: espace-->
+					<button class="button button--antiman button--round-l button--text-medium" onclick="sauvegarderQuestions()">SAUVERGARDER</button>
+				</div>
+			</section>
+		</div>
+	</body>
+</html>

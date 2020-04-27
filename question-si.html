@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+
+<html lang="fr">
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>BRAINOTES UI</title>
+		<link rel="stylesheet" type="text/css" href="./files/normalize.css">
+		<link rel="stylesheet" type="text/css" href="./files/vicons-font.css">
+		<link rel="stylesheet" type="text/css" href="./files/base.css">
+		<link rel="stylesheet" type="text/css" href="./files/buttons.css">
+		<script src="jquery.min.js"></script>
+		<script>var matiere = "si";</script>
+		<script>
+		function masquer_div(id) {
+				document.getElementById(id).style.display = 'none';
+		}
+
+		function afficher_div(id) {
+				document.getElementById(id).style.display = 'block';
+		}
+		</script>
+	</head>
+	<body>
+		<div class="container">
+			<header class="codrops-header">
+				<h1><a href="index.html">BRAINOTES</a><span><font size="6" color="#990033"> SI </font></span></h1>
+			</header>
+			
+			<section class="content">
+
+			<div class="box  bg-3">
+				<button class="button button--winona button--border-thin button--text-thick button--inverted" id="question"></button>	
+			</div>
+
+			<div class="box  bg-3">
+				<button class="button button--winona button--border-thin button--text-thick button--inverted">
+					<span id="reponse" class="middle"></span>
+				</button>
+			</div>
+
+			
+
+			<div class="box bg-1">
+				<button id="verif" onclick="afficher_div('a_masquer'); masquer_div('verif'); reponse()" class="button button--aylen button--round-l button--text-thick" >[VERIFICATION]</button> <!--Si besoin, remettre toggle_text(); dans onclick-->
+			</div>
+
+			<div class="boxv2 bg-1">
+				<div id="a_masquer" onclick="afficher_div('verif'); masquer_div('a_masquer')" style="display:none">
+					<button class="button button--aylen button--round-l button--text-thick" type="button" onclick="jeConnais();masquer_div('a_masquer')"><font size="4">JE CONNAIS !</font></button>
+					<button class="button button--aylen button--round-l button--text-thick" type="button" onclick="jeConnaisPas();masquer_div('a_masquer')"><font size="4">JE NE SAIS PAS /?/</font></button>
+				</div>
+			</div>
+		</div>
+		<script src="getquestions.js"></script>
+	</body>
+</html>
