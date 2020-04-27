@@ -62,6 +62,8 @@ function questionRandom() //Lors de l'appui sur le bouton, cette fonction est ap
 	if (database[matiere].length != 0)
 	{
 		document.getElementById('reponse').textContent = ""; //On supprime la réponse de la question précédente
+		document.getElementById('reponse').style.visibility = "visible"
+		document.getElementById('reponsePhoto').src = "";
 		oldNumeroQuestion = numeroQuestion
 		while (numeroQuestion == oldNumeroQuestion) //Empêche d'avoir la même question 2 fois de suite
 			{
@@ -69,6 +71,16 @@ function questionRandom() //Lors de l'appui sur le bouton, cette fonction est ap
 			}
 		console.log("Affichage de la question")
 		document.getElementById('question').textContent = database[matiere][numeroQuestion]["question"]; //...puis on l'affiche sur l'emplacement id="question"
+		if (database[matiere][numeroQuestion]["questionPhoto"] != undefined)
+		{
+			document.getElementById('questionPhoto').style.visibility = "visible"
+			document.getElementById('questionPhoto').src = database[matiere][numeroQuestion]["questionPhoto"]
+		}
+		else
+		{
+			document.getElementById('questionPhoto').style.visibility = "hidden"
+			document.getElementById('questionPhoto').src = database[matiere][numeroQuestion]["questionPhoto"]
+		}
 	}
 	else
 	{
@@ -80,7 +92,18 @@ function reponse()
 {
 	if (database[matiere].length != 0)
 	{
-		document.getElementById('reponse').textContent = database[matiere][numeroQuestion]["reponse"];
+		if (database[matiere][numeroQuestion]["reponse"].includes("http://") || database[matiere][numeroQuestion]["reponse"].includes("https://"))
+		{
+			document.getElementById('reponsePhoto').style.visibility = "visible"
+			document.getElementById('reponsePhoto').src = database[matiere][numeroQuestion]["reponse"]
+			document.getElementById('reponse').style.visibility = "hidden"
+		}
+		else
+		{
+			document.getElementById('reponse').textContent = database[matiere][numeroQuestion]["reponse"];
+			document.getElementById('reponsePhoto').style.visibility = "hidden"
+			document.getElementById('reponsePhoto').src = undefined
+		}
 	}
 	else
 	{
