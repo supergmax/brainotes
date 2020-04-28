@@ -113,7 +113,7 @@ a:focus {
 }
 
 /* Top Navigation Style */
-/*
+
 .codrops-links {
 	position: relative;
 	display: inline-block;
@@ -159,9 +159,9 @@ a:focus {
 .codrops-icon--prev:before {
 	content: "\e004";
 }
-*/
+
 /* Related demos */
-/*
+
 .content--related {
 	text-align: center;
 	font-weight: 600;
@@ -200,4 +200,3 @@ a:focus {
 	}
 }
 
-*/
