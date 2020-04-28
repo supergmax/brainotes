@@ -12,31 +12,44 @@
 		<link rel="stylesheet" type="text/css" href="./files/buttons.css">
 		<script src="jquery.min.js"></script>
 	</head>
-	<body>
-	<div class="container">
+		<body>
+			<div class="container">
 			<header class="codrops-header">
 				<h1><a href="index.html">BRAINOTES</a><span><font size="6" color="#990033">QUESTIONS</font></span></h1>
 			</header>
 
-			<div class="box bg-1">
-				<button onclick="window.location.href='liste-maths.html'" class="button button--antiman button--round-l button--text-medium">MATHS</button>
-				<button onclick="window.location.href='liste-physique.html'" class="button button--antiman button--round-l button--text-medium">PHYSIQUE</button>
-				<button onclick="window.location.href='liste-chimie.html'" class="button button--antiman button--round-l button--text-medium">CHIMIE</button>
-				<button onclick="window.location.href='liste-histoire.html'" class="button button--antiman button--round-l button--text-medium">HISTOIRE</button>
-				<button onclick="window.location.href='liste-geographie.html'" class="button button--antiman button--round-l button--text-medium">GEOGRAPHIE</button>
-				<button onclick="window.location.href='liste-si.html'" class="button button--antiman button--round-l button--text-medium">SI</button>
-				<button onclick="window.location.href='liste-perso.html'" class="button button--antiman button--round-l button--text-medium">PERSO</button>
-			</div>
-
-			<section class="content"></section>
-				<script>matiere = "histoire"</script>
-				<script src="questionlist.js"></script>
+			<section class="content">
 				<div class="box bg-1">
-					<button class="button button--antiman button--round-l button--text-medium" onclick="window.location.href='menu.html'">RETOUR</button>
+					<button onclick="window.location.href='liste-maths.html'" class="button button--antiman button--round-l button--text-medium">MATHS</button>
+					<button onclick="window.location.href='liste-physique.html'" class="button button--antiman button--round-l button--text-medium">PHYSIQUE</button>
+					<button onclick="window.location.href='liste-chimie.html'" class="button button--antiman button--round-l button--text-medium">CHIMIE</button>
+					<button onclick="window.location.href='liste-histoire.html'" class="button button--antiman button--round-l button--text-medium">HISTOIRE</button>
+				</div>
+
+				<div class="box bg-1">
+					<button onclick="window.location.href='liste-geographie.html'" class="button button--antiman button--round-l button--text-medium">GEOGRAPHIE</button>
+					<button onclick="window.location.href='liste-si.html'" class="button button--antiman button--round-l button--text-medium">SI</button>
+					<button onclick="window.location.href='liste-perso.html'" class="button button--antiman button--round-l button--text-medium">PERSO</button>
+				</div>
+			</section>
+				
+			<section class="content">
+				
+					<div class="box bg-1">	
+						<script>matiere = "histoire"</script>
+						<script src="questionlist.js"></script>
+					</div>
+				
+			</section>	
+
+			<section class="content">
+				<div class="box bg-1">
+					<button class="button button--antiman button--round-l button--text-medium" onclick="window.location.href='index.html'">RETOUR</button>
 					<a class="button button-- button--round-l button--text-medium"></a> <!-- question vide: espace-->
 					<button class="button button--antiman button--round-l button--text-medium" onclick="sauvegarderQuestions()">SAUVERGARDER</button>
 				</div>
 			</section>
-		</div>
-	</body>
+			
+			</div>
+		</body>
 </html>
