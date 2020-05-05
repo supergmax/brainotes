@@ -1,87 +1,91 @@
 [
 		{
 			"question": "Comment  montrer qu’une suite (Un) est croissante ?",
-			"reponse": "",
+			"reponse": "https://cdn.discordapp.com/attachments/707215315364478986/707216865969307718/unknown.png",
 			"poids": 5
 		},
 		{
 			"question": "Comment montrer que la fonction f est continue en 2 ?",
-			"reponse": "",
+			"reponse": "https://cdn.discordapp.com/attachments/707215315364478986/707216937188327444/unknown.png",
 			"poids": 5
 		},
 		{
 			"question": "Etudier la dérivabilité de la fonction g en 1. Que fait-on ?",
-			"reponse": "",
+			"reponse": "https://cdn.discordapp.com/attachments/707215315364478986/707217017102663730/unknown.png",
 			"poids": 5
 		},
 		{
 			"question": "Existe –t-il des tangentes horizontales à la Courbe Cf ? comment fait-on ?",
-			"reponse": "",
+			"reponse": "https://cdn.discordapp.com/attachments/707215315364478986/707217774946287726/unknown.png",
 			"poids": 5
 		},
 		{
 			"question": "Existe-t-il des tangentes à Cf parallèles à la droite d d’équation y= -5x+2 ? comment fait-on ?",
-			"reponse": "",
+			"reponse": "https://cdn.discordapp.com/attachments/707215315364478986/707221323306500116/unknown.png",
 			"poids": 5
 		},
 		{
-			"question": "Donner la Lim en -∞ de xe^x ",
-			"reponse": "",
+			"question": "Donner la Lim en -∞ de xe^x",
+			"reponse": "https://cdn.discordapp.com/attachments/707215315364478986/707221718376120370/unknown.png",
 			"poids": 5
 		},
 		{
 			"question": "Donner la Lim en +∞ de e^x/x",
-			"reponse": "",
+			"reponse": "https://cdn.discordapp.com/attachments/707215315364478986/707221926027853944/unknown.png",
 			"poids": 5
 		},
 		{
 			"question": "Donner la Lim en +∞ de ln(x)/x",
-			"reponse": "",
+			"reponse": "https://cdn.discordapp.com/attachments/707215315364478986/707221718376120370/unknown.png",
 			"poids": 5
 		},
 		{
 			"question": "Donner la Lim en 0 (x>0) de xLn(x)",
-			"reponse": "",
+			"reponse": "0",
 			"poids": 5
 		},
 		{
-			"question": "Montrer que la droite d’équation y=4 est asymptote  horizontale à Cf. comment fait-on ?",
-			"reponse": "",
+			"question": "Montrer que la droite d’équation y = 4 est asymptote  horizontale à Cf. comment fait-on ?",
+			"reponse": "https://cdn.discordapp.com/attachments/707215315364478986/707223070439637095/unknown.png",
 			"poids": 5
 		},
 		{
-			"question": "Montrer que la droite d’équation x=-1 est asymptote verticale à Cg. Comment fait-on ?",
-			"reponse": "",
+			"question": "Montrer que la droite d’équation x = -1 est asymptote verticale à Cg. Comment fait-on ?",
+			"reponse": "https://cdn.discordapp.com/attachments/707215315364478986/707223585038794762/unknown.png",
 			"poids": 5
 		},
 		{
-			"question": "Soit Un= n-√n. Quelle est sa limite ?",
-			"reponse": "",
+			"question": "Quel est la limite de Un = n-√n ?",
+			"reponse": "+∞",
 			"poids": 5
 		},
 		{
-			"question": "/!La question à bugué, la récuperer sur Windows/!",
-			"reponse": "",
+			"question": "Donner la limite en +∞ de la formule suivante :",
+			"questionPhoto": "https://cdn.discordapp.com/attachments/707215315364478986/707226840170758194/unknown.png",
+			"reponse": "https://cdn.discordapp.com/attachments/707215315364478986/707227180282937464/unknown.png",
 			"poids": 5
 		},
 		{
-			"question": "Donner la Lim en +∞ de Un = 4+Ln(1/n)",
-			"reponse": "",
+			"question": "Donner la limite en +∞ de Un = 4+Ln(1/n)",
+			"reponse": "https://cdn.discordapp.com/attachments/707215315364478986/707228300816416777/unknown.png",
 			"poids": 5
 		},
 		{
-			"question": "Donner la dérivée de f telle que f(x)=e^(ex)",
-			"reponse": "",
+			"question": "Donner la dérivée de la fonction suivante",
+			"questionPhoto" : "https://cdn.discordapp.com/attachments/707215315364478986/707236506888306698/unknown.png",
+			"reponse": "https://cdn.discordapp.com/attachments/707215315364478986/707236570083885157/unknown.png",
 			"poids": 5
 		},
 		{
-			"question": "Donner la dérivée de f telle que f(x)=e^(e^x) ",
-			"reponse": "",
+			"question": "Donner la dérivée de la fonction suivante",
+			"questionPhoto": "https://cdn.discordapp.com/attachments/707215315364478986/707236619102453870/unknown.png",
+			"reponse": "https://cdn.discordapp.com/attachments/707215315364478986/707236696063869038/unknown.png",
 			"poids": 5
 		},
 		{
-			"question": "Donner une primitive de (3x)/(x²+3) ",
-			"reponse": "",
+			"question": "Donner une primitive de la fonction suivante",
+			"questionPhoto":"https://cdn.discordapp.com/attachments/707215315364478986/707236781090799696/unknown.png",
+			"reponse": "https://cdn.discordapp.com/attachments/707215315364478986/707236814741569536/unknown.png",
 			"poids": 5
 		},
 		{
