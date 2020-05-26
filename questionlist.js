@@ -57,7 +57,7 @@ try
 				}
 				document.writeln('</form>')
 				document.writeln('</div>')
-				document.writeln('<hr>')
+				//document.writeln('<hr>')
 				console.log("Question chargée")
 		}
 		console.log("Fin du script")
