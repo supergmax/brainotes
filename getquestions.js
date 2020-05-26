@@ -85,6 +85,7 @@ function questionRandom() //Lors de l'appui sur le bouton, cette fonction est ap
 	else
 	{
 		document.getElementById('question').textContent = "Il n'y a pas de question pour cette matière"
+		document.getElementById('a_masquer').style.visibility = "hidden"
 	}
 };
 
