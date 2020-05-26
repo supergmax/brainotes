@@ -114,23 +114,18 @@ function reponse()
 
 function jeConnais()
 {
-	if (database[matiere].length != 0)
+	database[matiere][numeroQuestion]["poids"] = database[matiere][numeroQuestion]["poids"] - cookieOptions.probaJeConnais;
+	if (database[matiere][numeroQuestion]["poids"] < 1) //On vérifie que ça fera pas 0 après
 	{
-		if (database[matiere][numeroQuestion]["poids"] != 1) //On vérifie que ça fera pas 0 après
-		{
-			database[matiere][numeroQuestion]["poids"] = database[matiere][numeroQuestion]["poids"] - cookieOptions.probaJeConnais;
-		}
-		localStorage.setItem('database',JSON.stringify(database));
-		questionRandom()
+		database[matiere][numeroQuestion]["poids"] = 1
 	}
+	localStorage.setItem('database',JSON.stringify(database));
+	questionRandom()
 }
 
 function jeConnaisPas()
 {
-	if (database[matiere].length != 0)
-	{
-		database[matiere][numeroQuestion]["poids"] = database[matiere][numeroQuestion]["poids"] + cookieOptions.probaJeConnaisPas;
-		localStorage.setItem('database',JSON.stringify(database));
-		questionRandom()
-	}
+	database[matiere][numeroQuestion]["poids"] = database[matiere][numeroQuestion]["poids"] + cookieOptions.probaJeConnaisPas;
+	localStorage.setItem('database',JSON.stringify(database));
+	questionRandom()
 }
